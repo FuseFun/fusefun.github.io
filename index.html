@@ -3,27 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <title>FuseGames</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
 </head>
-
 <style>
+    /* hide scrollbar. */
+    ::-webkit-scrollbar { display: none; }
+    html
+    {
+        overflow-x: hidden;
+        /*overflow-y: hidden;*/
+    }
     body
     {
-        background-color: black;
+        background-color: #3b3b3b;
     }
-    H1
+    .t0
     {
-        color:orange;
-        text-align:center;
+        font-family: "Noto Sans SC", fantasy;
+        font-weight: 900;
+        font-size: 56px;
+        color: #ffffff;
     }
-    H2
+    .t1
     {
-        color:orange;
-        text-align:center;
+        font-family: "Noto Sans SC", fantasy;
+        font-weight: 700;
+        font-size: 24px;
+        color: #ffffff;
+    }
+    .t2
+    {
+        font-family: "Noto Sans SC", fantasy;
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .t3
+    {
+        font-family: "Noto Sans SC", fantasy;
+        font-weight: 300;
+        font-size: 16px;
+        color: #7f7f7f;
+    }
+    .flex-l1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        margin: 10px;
+        padding: 10px;
+
+        border-radius: 10px;
+        background: #252525;
+    }
+    .flex-l2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        margin: 10px;
+        padding: 10px;
+        
+        border-radius: 10px;
+        background: #202020;
+    }
+    .flex-l3
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        margin: 10px;
+        padding: 10px;
+
+        border-radius: 10px;
+        background: #252525;
+    }
+    .Image { width: auto; height: auto; max-width: 100%; max-height: 100%; }
+    /* SteamButton. */
+    .Button
+    {
+        /* non-link. */
+        text-decoration:none;
+        color:#FFFFFF;
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        margin: 10px;
+        padding-left: 20px;
+        width: 300px;
+
+        border-radius: 10px;
+        background: #252525;
+        
+        /* text-align: center; */
+    }
+    .t-Button
+    {
+        font-family: "Noto Sans SC", fantasy;
+        font-weight: 300;
+        font-size: 16px;
+        color: #ffffff;
+    }
+    .t-110
+    {
+        font-family: "Noto Sans SC", fantasy;
+        font-weight: 300;
+        font-size: 16px;
+        color: #7f7f7f;
+
+        text-align: center;
     }
 </style>
-
 <body>
-<H1>Welcome to FuseGames</H1>
-<H2>当前网站正在施工中, 敬请期待...</H2>
+<div style="width: 100%; text-align: center;"><p class="t0">FUSE GAMES</p>
+    <p class="t2">
+        欢迎来到这片荒凉之地...
+    </p>
+</div>
+
+<div class="flex-l1">
+    <p class="t1">&#12288<i class="fa fa-gamepad"></i>&#12288作品</p>
+    <div class="flex-l2">
+        <p class="t2">THRESHOLD</p>
+        <div><img class="Image" src="Images/threshold.png" width="460" height="215" alt=""></div>
+        <p class="t3">FuseGames 于 2019 年开发并上架 Steam。</p>
+        <a class="Button" href="https://store.steampowered.com/app/995470/Threshold/"><p class="t-Button"><i class="fa fa-steam-square" style="font-size:20px"></i>&#12288查看 Steam 页面</p></a>
+        <a class="Button" href="https://store.steampowered.com/app/995470/Threshold/"><p class="t-Button"><i class="fa fa-trello" style="font-size:20px"></i>&#12288查看 Trello 页面</p></a>
+        <a class="Button" href="https://qm.qq.com/cgi-bin/qm/qr?k=hAvaDaGEtm1aX9NrYZm8kGW3YSvMNvKc&jump_from=webapi"><p class="t-Button"><i class="fa fa-qq" style="font-size:20px"></i>&#12288 QQ Player Group #1 </p></a>
+        <a class="Button" href="https://qm.qq.com/cgi-bin/qm/qr?k=0TF2d8BKi5icALfLSt3jmUBvpbPudK42&jump_from=webapi"><p class="t-Button"><i class="fa fa-qq" style="font-size:20px"></i>&#12288 QQ Player Group #2 </p></a>
+        <a class="Button" href="https://qm.qq.com/cgi-bin/qm/qr?k=1ljBjXWjcNVvN_2P4HUTHts6slk2SE-X&jump_from=webapi"><p class="t-Button"><i class="fa fa-qq" style="font-size:20px"></i>&#12288 QQ Player Group #3 </p></a>
+        <a class="Button" href="https://qm.qq.com/cgi-bin/qm/qr?k=Gv71VoHV_ZUzQQCdj9OcKr3jeTaPKzgv&jump_from=webapi"><p class="t-Button"><i class="fa fa-qq" style="font-size:20px"></i>&#12288 QQ Player Group #4 </p></a>
+        <a class="Button" href="https://qm.qq.com/cgi-bin/qm/qr?k=31pikU6dKsiCWJHwkKNmlC0ZrRwInsqd&jump_from=webapi"><p class="t-Button"><i class="fa fa-qq" style="font-size:20px"></i>&#12288 QQ Player Group #5 </p></a>
+        <a class="Button" href="https://qm.qq.com/cgi-bin/qm/qr?k=fBp5qf-bIdydMqZxWd4wz8m-7DZ7K5gx&jump_from=webapi"><p class="t-Button"><i class="fa fa-qq" style="font-size:20px"></i>&#12288 QQ Player Group #6 </p></a>
+    </div>
+    <div class="flex-l2">
+        <p class="t2">MAPLE 开发工具包</p>
+        <div><img class="Image" src="Images/maple.png" width="460" height="215" alt=""></div>
+        <p class="t3">MDK 是一个正在为 THRESHOLD 和未来项目编写的开发工具包。</p>
+    </div>
+</div>
+
+<div class="flex-l1">
+    <p class="t1">&#12288<i class="fa fa-gamepad"></i>&#12288关于我们</p>
+    <div class="flex-l2">
+        <p class="t2">[开发者] 那只敏捷的棕毛狐狸</p>
+        <p class="t3">THRESHOLD 制作人 & 主程序, 目前正在利用业余时间开发 MDK</p>
+    </div>
+    <div class="flex-l2">
+        <p class="t2">[开发者] 87LEET</p>
+        <p class="t3">THRESHOLD 主美 & 动画师</p>
+    </div>
+    <div class="flex-l2">
+        <p class="t2">加入我们 ？</p>
+        <p class="t3">如果你也对生存类/军事题材游戏有着痴迷一样的热爱，梦想开发出好玩的、优质的游戏，请与我们联系！</p>
+        <p class="t3">邮箱: PlayerController@163.com</p>
+    </div>
+</div>
+
+<div class="flex-l1">
+    <p class="t-110">鲁ICP备20005602号-1</p>
+</div>
+
 </body>
 </html>
