@@ -53,7 +53,7 @@
         flex-direction: column;
 
         margin: 10px;
-        padding: 10px;
+        padding: 20px;
 
         border-radius: 10px;
         background: #252525;
@@ -65,7 +65,7 @@
         flex-direction: column;
         
         margin: 10px;
-        padding: 10px;
+        padding: 20px;
         
         border-radius: 10px;
         background: #202020;
@@ -77,7 +77,7 @@
         flex-direction: column;
 
         margin: 10px;
-        padding: 10px;
+        padding: 20px;
 
         border-radius: 10px;
         background: #252525;
@@ -100,8 +100,6 @@
 
         border-radius: 10px;
         background: #252525;
-        
-        /* text-align: center; */
     }
     .t-Button
     {
@@ -109,6 +107,13 @@
         font-weight: 300;
         font-size: 16px;
         color: #ffffff;
+    }
+    .t-cooldown
+    {
+        font-family: "Noto Sans SC", fantasy;
+        font-weight: 300;
+        font-size: 16px;
+        color: #7f7f7f;
     }
     .t-110
     {
@@ -121,11 +126,23 @@
     }
 </style>
 <body>
+<script type="text/javascript" src="Js/cooldown.js"></script>
+
 <div style="width: 100%; text-align: center;"><p class="t0">FUSE GAMES</p>
     <p class="t2">
         欢迎来到这片荒凉之地...
     </p>
 </div>
+<br><br>
+
+<div class="flex-l1">
+    <p class="t1">&#12288<i class="fa fa-info"></i>&#12288讯息</p>
+    <div class="flex-l2">
+        <p class="t2">MAPLE 开发工具 Alpha1</p>
+        <p class="t-cooldown"></p>
+    </div>
+</div>
+<br>
 
 <div class="flex-l1">
     <p class="t1">&#12288<i class="fa fa-gamepad"></i>&#12288作品</p>
@@ -148,23 +165,27 @@
         <p class="t3">MDK 是一个正在为 THRESHOLD 和未来项目编写的开发工具包。</p>
     </div>
 </div>
+<br>
 
 <div class="flex-l1">
-    <p class="t1">&#12288<i class="fa fa-gamepad"></i>&#12288关于我们</p>
+    <p class="t1">&#12288<i class="fa fa-group"></i>&#12288成员</p>
     <div class="flex-l2">
-        <p class="t2">[开发者] 那只敏捷的棕毛狐狸</p>
-        <p class="t3">THRESHOLD 制作人 & 主程序, 目前正在利用业余时间开发 MDK</p>
-    </div>
-    <div class="flex-l2">
-        <p class="t2">[开发者] 87LEET</p>
-        <p class="t3">THRESHOLD 主美 & 动画师</p>
+        <div class="flex-l3">
+            <p class="t2">那只敏捷的棕毛狐狸</p>
+            <p class="t3">THRESHOLD 制作人、主程序，目前正在利用业余时间开发 MDK。</p>
+        </div>
+        <div class="flex-l3">
+            <p class="t2">87LEET</p>
+            <p class="t3">THRESHOLD 主美、动画师。</p>
+        </div>
     </div>
     <div class="flex-l2">
         <p class="t2">加入我们 ？</p>
-        <p class="t3">如果你也对生存类/军事题材游戏有着痴迷一样的热爱，梦想开发出好玩的、优质的游戏，请与我们联系！</p>
-        <p class="t3">邮箱: PlayerController@163.com</p>
+        <p class="t3">QQ：1136851756</p>
+        <p class="t3">邮箱：PlayerController@163.com</p>
     </div>
 </div>
+<br>
 
 <div class="flex-l1">
     <p class="t-110">鲁ICP备20005602号-1</p>
